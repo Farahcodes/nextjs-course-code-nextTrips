@@ -1,28 +1,25 @@
 import MeetupList from "../components/meetups/MeetupList";
-import Layout from "../components/layout/Layout";
 
 const DUMMY_MEETUPS = [
   {
     id: "m1",
     title: "A first trip",
-    image: "https://alhambragrenade.fr/images/alhambra-grenade-fr.jpg",
+    image:
+      "https://images.unsplash.com/photo-1576141405481-58f5ed9cf94e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     address: "Some address 5, 12345 Granada",
     description: "This is a first trip",
   },
   {
     id: "m2",
     title: "A second trip",
-    image: "https://visiterseville.fr/images/top_10_attractions_seville.jpg",
+    image:
+      "https://images.unsplash.com/photo-1559564477-6e8582270002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     address: "Some address 10, 12345 Sevilla",
     description: "This is a second trip",
   },
 ];
 function HomePage() {
-  return (
-    <Layout>
-      <MeetupList meetups={DUMMY_MEETUPS} />
-    </Layout>
-  );
+  return <MeetupList meetups={DUMMY_MEETUPS} />;
 }
 
 export default HomePage;

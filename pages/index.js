@@ -27,6 +27,10 @@ function HomePage(props) {
     <Fragment>
       <Head>
         <title>Noor Trips</title>
+        <meta
+          name="description"
+          content="Dream vacations to add to your travel bucket list"
+        />
       </Head>
       ;
       <MeetupList meetups={props.meetups} />;

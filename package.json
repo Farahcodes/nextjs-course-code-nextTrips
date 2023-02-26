@@ -8,11 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@ampproject/toolbox-optimizer": "^2.9.0",
-    "mongodb": "^5.0.1",
-    "next": "^13.2.1",
-    "postcss": "^7.0.32",
-    "querystring": "^0.2.1",
+    "mongodb": "^3.6.4",
+    "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   }

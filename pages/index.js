@@ -32,8 +32,7 @@ function HomePage(props) {
           content="Dream vacations to add to your travel bucket list"
         />
       </Head>
-      ;
-      <MeetupList meetups={props.meetups} />;
+      <MeetupList meetups={props.meetups} />
     </Fragment>
   );
 }

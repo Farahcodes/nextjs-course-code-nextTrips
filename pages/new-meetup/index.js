@@ -31,7 +31,7 @@ function NewMeetupPage() {
           content="Add your dream vacations to your bucket list!"
         />
       </Head>
-      <NewMeetupForm onAddMeetup={addMeetupHandler} />;
+      <NewMeetupForm onAddMeetup={addMeetupHandler} />
     </Fragment>
   );
 }

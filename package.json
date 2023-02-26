@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^4.30.4",
     "mongodb": "^3.6.4",
     "next": "10.0.6",
     "react": "17.0.1",
